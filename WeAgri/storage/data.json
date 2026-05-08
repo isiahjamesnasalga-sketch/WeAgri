@@ -1,0 +1,908 @@
+{
+    "users": [
+        {
+            "id": 7,
+            "full_name": "ben",
+            "email": "josephbenedictmasicampo@gmail.com",
+            "password_hash": "$2y$10$qNNZRaxKQFz1O7QN6OhZxevbOUjRaMNR1L14ofrv2e8tmCDORvuC.",
+            "role": "farmer",
+            "linked_farmer_id": 2,
+            "linked_expert_id": null,
+            "created_at": "2026-04-21 21:39:11"
+        },
+        {
+            "id": 8,
+            "full_name": "Benedict",
+            "email": "jbmasicampo@gmail.com",
+            "password_hash": "$2y$10$qaywta7B8slJIGymTLmz/eExtDCednRXevN0SaWRtxCOeOE/C9Zde",
+            "role": "farmer",
+            "linked_farmer_id": 3,
+            "linked_expert_id": null,
+            "created_at": "2026-04-21 22:00:29"
+        },
+        {
+            "id": 9,
+            "full_name": "benedict",
+            "email": "jbm@gmail.com",
+            "password_hash": "$2y$10$aSX2YciycDKaIsgDgfoVzum1Zuv1gtuEtLGOIEQCA.xU5X1LJDywu",
+            "role": "consultant",
+            "linked_farmer_id": null,
+            "linked_expert_id": 1,
+            "created_at": "2026-04-21 22:24:19"
+        },
+        {
+            "id": 10,
+            "full_name": "Isiah James Nasalga",
+            "email": "isiahnasalga@weagri.com",
+            "password_hash": "$2y$10$dgW/GKvor..EFlS9WoYbvOf9rOwI1BB8DDWT5GvWmq4KD7txLQdyi",
+            "role": "admin",
+            "linked_farmer_id": null,
+            "linked_expert_id": null,
+            "created_at": "2026-04-21 23:37:20"
+        },
+        {
+            "id": 11,
+            "full_name": "Isiah James Nasalga",
+            "email": "isiah@weagri.com",
+            "password_hash": "$2y$10$75QyZ5ByZYGgJJTdAD7/Pe4Y.PfkRbMN9p3gGfsqHHmEzv1xVbXwq",
+            "role": "farmer",
+            "linked_farmer_id": 4,
+            "linked_expert_id": null,
+            "created_at": "2026-04-21 23:39:41"
+        },
+        {
+            "id": 12,
+            "full_name": "Isiah James Nasalga",
+            "email": "isiahjames.nasalga@weagri.com",
+            "password_hash": "$2y$10$0qG7UOsfgplrdqp2YH4ujuEoSfL9xzxbaR2HVNhiJmzZlz//l3OUe",
+            "role": "admin",
+            "linked_farmer_id": null,
+            "linked_expert_id": null,
+            "created_at": "2026-04-23 16:41:54"
+        },
+        {
+            "id": 13,
+            "full_name": "Isiah James Nasalga",
+            "email": "isiahjames@weagri.com",
+            "password_hash": "$2y$10$g4xMtIfAndJlUtx1fSDcaO6dEW4PM9He10MlNZq7QX42kpt56KJD6",
+            "role": "farmer",
+            "linked_farmer_id": 5,
+            "linked_expert_id": null,
+            "created_at": "2026-04-23 17:58:27"
+        },
+        {
+            "id": 14,
+            "full_name": "Maria",
+            "email": "maria@weagri.com",
+            "password_hash": "$2y$10$1cNneK3QZz3fsyBeyMyrv.vWh/WsCPrqK9qf38GbRajxA0iULhUkO",
+            "role": "consultant",
+            "linked_farmer_id": null,
+            "linked_expert_id": 2,
+            "created_at": "2026-05-05 21:58:58"
+        },
+        {
+            "id": 15,
+            "full_name": "Professor James",
+            "email": "admin@weagri.com",
+            "password_hash": "$2y$10$1HQ.PBOVK0CvNGZ2IKe7Ve.vxnWuSaos6sJ/LQrR0SzEwCUMBvoze",
+            "role": "admin",
+            "linked_farmer_id": null,
+            "linked_expert_id": null,
+            "created_at": "2026-05-06 12:29:26"
+        }
+    ],
+    "farmers": [
+        {
+            "id": 2,
+            "full_name": "ben",
+            "location": "Mandurriao, Iloilo City, Navais",
+            "primary_crop": "Rice",
+            "soil_type": "Not specified",
+            "common_issues": "Not specified",
+            "farm_scale": "smallholder"
+        },
+        {
+            "id": 3,
+            "full_name": "Benedict",
+            "location": "Mandurriao, Iloilo City, Navais",
+            "primary_crop": "Corn",
+            "soil_type": "Not specified",
+            "common_issues": "Not specified",
+            "farm_scale": "smallholder"
+        },
+        {
+            "id": 4,
+            "full_name": "Isiah James Nasalga",
+            "location": "miagao, iloilo",
+            "primary_crop": "rice",
+            "soil_type": "Not specified",
+            "common_issues": "Not specified",
+            "farm_scale": "smallholder"
+        },
+        {
+            "id": 5,
+            "full_name": "Isiah James Nasalga",
+            "location": "Miagao, Iloilo",
+            "primary_crop": "Rice, Corn, Tomatoes, Eggplants",
+            "soil_type": "Clay",
+            "common_issues": "Armyworms",
+            "farm_scale": "backyard"
+        }
+    ],
+    "experts": [
+        {
+            "id": 1,
+            "full_name": "benedict",
+            "specialty": "Soil Health",
+            "status": "online",
+            "response_minutes": 12,
+            "bio": "sgcjsgajgjc"
+        },
+        {
+            "id": 2,
+            "full_name": "Maria",
+            "specialty": "General Agronomy",
+            "status": "offline",
+            "response_minutes": 12,
+            "bio": "Supports farmers with crop, soil, and field diagnostics."
+        }
+    ],
+    "consultations": [
+        {
+            "id": 1,
+            "farmer_id": 2,
+            "title": "Corn with dried leaves and thin stem.",
+            "crop": "Corn",
+            "category": "General Advisory",
+            "urgency": "high",
+            "status": "expert_assigned",
+            "location": "Mandurriao, Iloilo City",
+            "assigned_expert_id": 1,
+            "summary": "AI triage completed and assigned the case to an available consultant.",
+            "created_at": "2026-04-21 22:26:21",
+            "updated_at": "2026-04-21 23:38:12"
+        },
+        {
+            "id": 2,
+            "farmer_id": 2,
+            "title": "Corn Pest and Disease: what are the pests common in corn crops?",
+            "crop": "Corn",
+            "category": "Pest and Disease",
+            "urgency": "medium",
+            "status": "expert_assigned",
+            "location": "",
+            "assigned_expert_id": 1,
+            "summary": "AI triage completed and assigned the case to an available consultant.",
+            "created_at": "2026-04-21 22:38:49",
+            "updated_at": "2026-04-21 22:38:49"
+        },
+        {
+            "id": 3,
+            "farmer_id": 4,
+            "title": "Corn Pest and Disease: dark spots on corn leaves",
+            "crop": "Corn",
+            "category": "Pest and Disease",
+            "urgency": "medium",
+            "status": "expert_assigned",
+            "location": "",
+            "assigned_expert_id": 1,
+            "summary": "AI triage completed and assigned the case to an available consultant.",
+            "created_at": "2026-04-21 23:39:48",
+            "updated_at": "2026-04-21 23:39:48"
+        },
+        {
+            "id": 4,
+            "farmer_id": 5,
+            "title": "Rice leaves with dark spots",
+            "crop": "rice",
+            "category": "Pest and Disease",
+            "urgency": "medium",
+            "status": "expert_assigned",
+            "location": "Miagao, Iloilo",
+            "assigned_expert_id": 2,
+            "summary": "AI triage generated a recommended action plan for continued monitoring.",
+            "created_at": "2026-05-05 23:24:40",
+            "updated_at": "2026-05-05 23:29:30"
+        }
+    ],
+    "messages": [
+        {
+            "id": 1,
+            "consultation_id": 1,
+            "sender_type": "farmer",
+            "sender_name": "ben",
+            "message": "sefbkaaackaka",
+            "references": [],
+            "created_at": "2026-04-21 22:26:21"
+        },
+        {
+            "id": 2,
+            "consultation_id": 1,
+            "sender_type": "ai",
+            "sender_name": "AgroLLM",
+            "message": "I do not have a close AgroLLM match for that concern yet.\n\nImmediate next steps:\n- Capture clear photos of the affected crop area.\n- Note when the symptoms started, how fast they are spreading, and any recent weather changes.\n- Create a consultation so a human agricultural adviser can review the case.\n\nThis is a good case for expert assessment because the available knowledge base is not a strong match.",
+            "references": [],
+            "created_at": "2026-04-21 22:26:21"
+        },
+        {
+            "id": 3,
+            "consultation_id": 1,
+            "sender_type": "expert",
+            "sender_name": "benedict",
+            "message": "hmbxjakagkxkhxHKHXKabxkgxui",
+            "references": [],
+            "created_at": "2026-04-21 22:28:03"
+        },
+        {
+            "id": 4,
+            "consultation_id": 2,
+            "sender_type": "farmer",
+            "sender_name": "ben",
+            "message": "what are the pests common in corn crops?",
+            "references": [],
+            "created_at": "2026-04-21 22:38:49"
+        },
+        {
+            "id": 5,
+            "consultation_id": 2,
+            "sender_type": "ai",
+            "sender_name": "AgroLLM",
+            "message": "I do not have a close AgroLLM match for that concern yet.\n\nImmediate next steps:\n- Capture clear photos of the affected crop area.\n- Note when the symptoms started, how fast they are spreading, and any recent weather changes.\n- Create a consultation so a human agricultural adviser can review the case.\n\nThis is a good case for expert assessment because the available knowledge base is not a strong match.",
+            "references": [],
+            "created_at": "2026-04-21 22:38:49"
+        },
+        {
+            "id": 6,
+            "consultation_id": 3,
+            "sender_type": "farmer",
+            "sender_name": "Isiah James Nasalga",
+            "message": "dark spots on corn leaves",
+            "references": [],
+            "created_at": "2026-04-21 23:39:48"
+        },
+        {
+            "id": 7,
+            "consultation_id": 3,
+            "sender_type": "ai",
+            "sender_name": "AgroLLM",
+            "message": "I do not have a close AgroLLM match for that concern yet.\n\nImmediate next steps:\n- Capture clear photos of the affected crop area.\n- Note when the symptoms started, how fast they are spreading, and any recent weather changes.\n- Create a consultation so a human agricultural adviser can review the case.\n\nThis is a good case for expert assessment because the available knowledge base is not a strong match.",
+            "references": [],
+            "created_at": "2026-04-21 23:39:48"
+        },
+        {
+            "id": 8,
+            "consultation_id": 4,
+            "sender_type": "farmer",
+            "sender_name": "Isiah James Nasalga",
+            "message": "there are several dark spots on my rice leaves",
+            "references": [],
+            "created_at": "2026-05-05 23:24:40"
+        },
+        {
+            "id": 9,
+            "consultation_id": 4,
+            "sender_type": "ai",
+            "sender_name": "AgroLLM",
+            "message": "Possible Causes:\n- Rice yellowing and nitrogen stress\n- Tomato leaf spot and blight basics\n\nWhat to Check:\n- Look under leaves, around stems, and near the soil line.\n- Check if the problem starts on old leaves or new leaves.\n- Check soil moisture 5-10 cm deep before adding water.\n- Note whether the affected area is spreading.\n\nImmediate Actions:\n- Check whether older leaves turn yellow first.\n- Apply nitrogen in split doses rather than one heavy dose.\n- Keep field moisture steady after fertilizing.\n- Remove heavily infected leaves and dispose of them away from the field.\n\nWhen to Escalate:\nAsk a consultant if the problem spreads quickly, affects a large area, or does not improve after safe first steps.\n\nHow many days has this been happening?",
+            "references": [
+                "Rice yellowing and nitrogen stress - WeAgri crop nutrition guide",
+                "Tomato leaf spot and blight basics - WeAgri pest and disease guide"
+            ],
+            "created_at": "2026-05-05 23:24:40"
+        },
+        {
+            "id": 10,
+            "consultation_id": 4,
+            "sender_type": "expert",
+            "sender_name": "Maria",
+            "message": "I would like to talk to an expert about this case.",
+            "references": [],
+            "created_at": "2026-05-05 23:29:30"
+        }
+    ],
+    "notifications": [
+        {
+            "id": 1,
+            "title": "New message from Maria",
+            "body": "hi isiah",
+            "type": "consultation",
+            "is_read": false,
+            "consultation_id": null,
+            "receiver_user_id": 13,
+            "source_user_id": 14,
+            "created_at": "2026-05-06 11:46:53"
+        },
+        {
+            "id": 2,
+            "title": "New message from Maria",
+            "body": "how are you",
+            "type": "consultation",
+            "is_read": true,
+            "consultation_id": null,
+            "receiver_user_id": 13,
+            "source_user_id": 14,
+            "created_at": "2026-05-06 11:47:28"
+        },
+        {
+            "id": 3,
+            "title": "New message from Maria",
+            "body": "help me",
+            "type": "consultation",
+            "is_read": true,
+            "consultation_id": null,
+            "receiver_user_id": 13,
+            "source_user_id": 14,
+            "created_at": "2026-05-06 11:48:30"
+        },
+        {
+            "id": 4,
+            "title": "New message from Maria",
+            "body": "i mean what do you need?",
+            "type": "consultation",
+            "is_read": true,
+            "consultation_id": null,
+            "receiver_user_id": 13,
+            "source_user_id": 14,
+            "created_at": "2026-05-06 11:56:16"
+        },
+        {
+            "id": 5,
+            "title": "New platform review",
+            "body": "Isiah James Nasalga rated WeAgri 5/5: This platform helped me a lot. I would highly recommend this to beginner farmers.",
+            "type": "system",
+            "is_read": false,
+            "consultation_id": null,
+            "receiver_user_id": 10,
+            "source_user_id": 13,
+            "created_at": "2026-05-06 12:28:11"
+        },
+        {
+            "id": 6,
+            "title": "New platform review",
+            "body": "Isiah James Nasalga rated WeAgri 5/5: This platform helped me a lot. I would highly recommend this to beginner farmers.",
+            "type": "system",
+            "is_read": false,
+            "consultation_id": null,
+            "receiver_user_id": 12,
+            "source_user_id": 13,
+            "created_at": "2026-05-06 12:28:11"
+        },
+        {
+            "id": 7,
+            "title": "New message from Isiah James Nasalga",
+            "body": "hi",
+            "type": "consultation",
+            "is_read": true,
+            "consultation_id": null,
+            "receiver_user_id": 14,
+            "source_user_id": 13,
+            "created_at": "2026-05-06 15:49:05"
+        },
+        {
+            "id": 8,
+            "title": "New message from Isiah James Nasalga",
+            "body": "hi maria",
+            "type": "consultation",
+            "is_read": true,
+            "consultation_id": null,
+            "receiver_user_id": 14,
+            "source_user_id": 13,
+            "created_at": "2026-05-06 15:50:32"
+        },
+        {
+            "id": 9,
+            "title": "New message from Maria",
+            "body": "hello",
+            "type": "consultation",
+            "is_read": false,
+            "consultation_id": null,
+            "receiver_user_id": 13,
+            "source_user_id": 14,
+            "created_at": "2026-05-06 15:51:14"
+        },
+        {
+            "id": 10,
+            "title": "New message from Maria",
+            "body": "hello",
+            "type": "consultation",
+            "is_read": false,
+            "consultation_id": null,
+            "receiver_user_id": 13,
+            "source_user_id": 14,
+            "created_at": "2026-05-06 15:51:41"
+        },
+        {
+            "id": 11,
+            "title": "New message from Isiah James Nasalga",
+            "body": "hey",
+            "type": "consultation",
+            "is_read": false,
+            "consultation_id": null,
+            "receiver_user_id": 14,
+            "source_user_id": 13,
+            "created_at": "2026-05-06 15:53:35"
+        },
+        {
+            "id": 12,
+            "title": "New message from Isiah James Nasalga",
+            "body": "hi",
+            "type": "consultation",
+            "is_read": true,
+            "consultation_id": null,
+            "receiver_user_id": 14,
+            "source_user_id": 13,
+            "created_at": "2026-05-06 16:11:35"
+        },
+        {
+            "id": 13,
+            "title": "New platform review",
+            "body": "Isiah James Nasalga rated WeAgri 5/5: I love weagri",
+            "type": "system",
+            "is_read": false,
+            "consultation_id": null,
+            "receiver_user_id": 10,
+            "source_user_id": 13,
+            "created_at": "2026-05-06 16:12:41"
+        },
+        {
+            "id": 14,
+            "title": "New platform review",
+            "body": "Isiah James Nasalga rated WeAgri 5/5: I love weagri",
+            "type": "system",
+            "is_read": false,
+            "consultation_id": null,
+            "receiver_user_id": 12,
+            "source_user_id": 13,
+            "created_at": "2026-05-06 16:12:41"
+        },
+        {
+            "id": 15,
+            "title": "New platform review",
+            "body": "Isiah James Nasalga rated WeAgri 5/5: I love weagri",
+            "type": "system",
+            "is_read": false,
+            "consultation_id": null,
+            "receiver_user_id": 15,
+            "source_user_id": 13,
+            "created_at": "2026-05-06 16:12:41"
+        },
+        {
+            "id": 16,
+            "title": "New platform review",
+            "body": "Isiah James Nasalga rated WeAgri 5/5: I love weagri",
+            "type": "system",
+            "is_read": false,
+            "consultation_id": null,
+            "receiver_user_id": 10,
+            "source_user_id": 13,
+            "created_at": "2026-05-06 16:12:45"
+        },
+        {
+            "id": 17,
+            "title": "New platform review",
+            "body": "Isiah James Nasalga rated WeAgri 5/5: I love weagri",
+            "type": "system",
+            "is_read": false,
+            "consultation_id": null,
+            "receiver_user_id": 12,
+            "source_user_id": 13,
+            "created_at": "2026-05-06 16:12:45"
+        },
+        {
+            "id": 18,
+            "title": "New platform review",
+            "body": "Isiah James Nasalga rated WeAgri 5/5: I love weagri",
+            "type": "system",
+            "is_read": false,
+            "consultation_id": null,
+            "receiver_user_id": 15,
+            "source_user_id": 13,
+            "created_at": "2026-05-06 16:12:45"
+        },
+        {
+            "id": 19,
+            "title": "New message from Maria",
+            "body": "what is it?",
+            "type": "consultation",
+            "is_read": false,
+            "consultation_id": null,
+            "receiver_user_id": 13,
+            "source_user_id": 14,
+            "created_at": "2026-05-06 16:13:59"
+        },
+        {
+            "id": 20,
+            "title": "New message from Maria",
+            "body": "what is it?",
+            "type": "consultation",
+            "is_read": true,
+            "consultation_id": null,
+            "receiver_user_id": 13,
+            "source_user_id": 14,
+            "created_at": "2026-05-06 16:14:36"
+        },
+        {
+            "id": 21,
+            "title": "New message from Isiah James Nasalga",
+            "body": "hi",
+            "type": "consultation",
+            "is_read": false,
+            "consultation_id": null,
+            "receiver_user_id": 14,
+            "source_user_id": 13,
+            "created_at": "2026-05-06 16:16:03"
+        }
+    ],
+    "knowledge_base": [
+        {
+            "id": 1,
+            "title": "Corn pest scouting guide",
+            "topic": "Pest and Disease",
+            "content": "Common corn pests include corn borer, armyworm, corn earworm, aphids, and cutworms. Scout weekly by checking leaf whorls, stems, ears, and the soil near young plants.",
+            "recommendations": [
+                "Scout early morning and check at least five areas of the field.",
+                "Remove weeds and crop debris that shelter insects.",
+                "Use neem oil or insecticidal soap for soft-bodied pests when label directions allow."
+            ],
+            "tags": [
+                "corn",
+                "maize",
+                "pest",
+                "armyworm",
+                "borer",
+                "aphid",
+                "cutworm"
+            ],
+            "source": "WeAgri local agronomy guide"
+        },
+        {
+            "id": 2,
+            "title": "Rice yellowing and nitrogen stress",
+            "topic": "Crop Nutrition",
+            "content": "Yellowing older rice leaves often point to nitrogen deficiency, but water stress, poor roots, and disease can also cause pale growth. Check leaf age, soil moisture, and field drainage before fertilizing.",
+            "recommendations": [
+                "Check whether older leaves turn yellow first.",
+                "Apply nitrogen in split doses rather than one heavy dose.",
+                "Keep field moisture steady after fertilizing."
+            ],
+            "tags": [
+                "rice",
+                "yellowing",
+                "nitrogen",
+                "fertilizer",
+                "nutrition"
+            ],
+            "source": "WeAgri crop nutrition guide"
+        },
+        {
+            "id": 3,
+            "title": "Tomato leaf spot and blight basics",
+            "topic": "Pest and Disease",
+            "content": "Tomato leaf spots and blights are often encouraged by wet leaves, dense planting, and infected plant debris. Brown spots that spread quickly need sanitation and airflow improvements.",
+            "recommendations": [
+                "Remove heavily infected leaves and dispose of them away from the field.",
+                "Avoid overhead watering and improve spacing.",
+                "Use a labeled copper fungicide when spots continue spreading."
+            ],
+            "tags": [
+                "tomato",
+                "leaf spot",
+                "blight",
+                "fungus",
+                "copper"
+            ],
+            "source": "WeAgri pest and disease guide"
+        },
+        {
+            "id": 4,
+            "title": "Soil health starter practices",
+            "topic": "Soil Management",
+            "content": "Healthy soil holds moisture, drains excess water, supports roots, and has enough organic matter. Compost, crop residues, cover crops, and reduced disturbance can improve soil over time.",
+            "recommendations": [
+                "Add compost or well-rotted manure when available.",
+                "Keep soil covered with mulch or crop residue.",
+                "Test soil pH and nutrients before applying large fertilizer rates."
+            ],
+            "tags": [
+                "soil",
+                "compost",
+                "organic matter",
+                "pH",
+                "mulch"
+            ],
+            "source": "WeAgri soil health guide"
+        },
+        {
+            "id": 5,
+            "title": "Basic fertilizer timing",
+            "topic": "Crop Nutrition",
+            "content": "Fertilizer works best when matched to crop stage. Nitrogen supports leafy growth, phosphorus supports roots, and potassium helps crop strength and stress tolerance.",
+            "recommendations": [
+                "Apply fertilizer in split doses when possible.",
+                "Avoid fertilizing immediately before heavy rain.",
+                "Use compost with mineral fertilizer to improve long-term soil condition."
+            ],
+            "tags": [
+                "fertilizer",
+                "nitrogen",
+                "phosphorus",
+                "potassium",
+                "nutrients"
+            ],
+            "source": "WeAgri fertilizer guide"
+        },
+        {
+            "id": 6,
+            "title": "Irrigation and water stress",
+            "topic": "Water and Irrigation",
+            "content": "Good irrigation keeps the root zone moist without waterlogging. Too little water causes wilting and poor growth; too much water can suffocate roots and encourage disease.",
+            "recommendations": [
+                "Check soil moisture 5-10 cm deep before watering.",
+                "Water in the morning when possible.",
+                "Clear drainage after heavy rain."
+            ],
+            "tags": [
+                "water",
+                "irrigation",
+                "wilting",
+                "drainage",
+                "water stress"
+            ],
+            "source": "WeAgri irrigation guide"
+        },
+        {
+            "id": 7,
+            "title": "Weather preparation for farms",
+            "topic": "Weather Preparedness",
+            "content": "Heavy rain, strong wind, and heat can damage crops. Farmers can reduce losses by preparing drainage, supporting weak plants, and avoiding fertilizer or sprays before storms.",
+            "recommendations": [
+                "Clear canals and drainage paths before heavy rain.",
+                "Harvest mature produce early when a storm is expected.",
+                "Inspect for disease after long wet periods."
+            ],
+            "tags": [
+                "weather",
+                "rain",
+                "storm",
+                "heat",
+                "preparedness"
+            ],
+            "source": "WeAgri weather advisory guide"
+        },
+        {
+            "id": 8,
+            "title": "Sustainable farming basics",
+            "topic": "Sustainable Farming",
+            "content": "Sustainable farming protects soil, water, beneficial insects, and long-term productivity. It combines crop rotation, organic matter, careful input use, and regular observation.",
+            "recommendations": [
+                "Rotate crops to reduce pest and disease buildup.",
+                "Protect beneficial insects by avoiding unnecessary sprays.",
+                "Keep records so each season improves the next one."
+            ],
+            "tags": [
+                "sustainable",
+                "rotation",
+                "beneficial insects",
+                "records",
+                "farm management"
+            ],
+            "source": "WeAgri sustainable practices guide"
+        }
+    ],
+    "feedback": [],
+    "platform_feedback": [
+        {
+            "id": 1,
+            "user_id": 13,
+            "reviewer_name": "Isiah James Nasalga",
+            "reviewer_role": "farmer",
+            "rating": 5,
+            "comment": "This platform helped me a lot. I would highly recommend this to beginner farmers.",
+            "created_at": "2026-05-06 12:28:11"
+        },
+        {
+            "id": 2,
+            "user_id": 13,
+            "reviewer_name": "Isiah James Nasalga",
+            "reviewer_role": "farmer",
+            "rating": 5,
+            "comment": "I love weagri",
+            "created_at": "2026-05-06 16:12:41"
+        },
+        {
+            "id": 3,
+            "user_id": 13,
+            "reviewer_name": "Isiah James Nasalga",
+            "reviewer_role": "farmer",
+            "rating": 5,
+            "comment": "I love weagri",
+            "created_at": "2026-05-06 16:12:45"
+        }
+    ],
+    "direct_messages": [
+        {
+            "id": 1,
+            "sender_user_id": 13,
+            "receiver_user_id": 9,
+            "message_text": "hello",
+            "is_read": false,
+            "created_at": "2026-05-05 22:42:08"
+        },
+        {
+            "id": 2,
+            "sender_user_id": 13,
+            "receiver_user_id": 14,
+            "message_text": "hello",
+            "is_read": true,
+            "created_at": "2026-05-05 22:42:35"
+        },
+        {
+            "id": 3,
+            "sender_user_id": 14,
+            "receiver_user_id": 13,
+            "message_text": "miss u maria",
+            "is_read": true,
+            "created_at": "2026-05-05 22:49:36"
+        },
+        {
+            "id": 4,
+            "sender_user_id": 14,
+            "receiver_user_id": 13,
+            "message_text": "hi isiah",
+            "is_read": true,
+            "created_at": "2026-05-05 23:05:39"
+        },
+        {
+            "id": 5,
+            "sender_user_id": 13,
+            "receiver_user_id": 14,
+            "message_text": "hi maria",
+            "is_read": true,
+            "created_at": "2026-05-05 23:05:59"
+        },
+        {
+            "id": 6,
+            "sender_user_id": 14,
+            "receiver_user_id": 13,
+            "message_text": "hi",
+            "is_read": true,
+            "created_at": "2026-05-05 23:11:37"
+        },
+        {
+            "id": 7,
+            "sender_user_id": 14,
+            "receiver_user_id": 13,
+            "message_text": "how are you babe",
+            "is_read": true,
+            "created_at": "2026-05-05 23:15:13"
+        },
+        {
+            "id": 8,
+            "sender_user_id": 13,
+            "receiver_user_id": 14,
+            "message_text": "im doing good baby:) have you eaten na ba?",
+            "is_read": true,
+            "created_at": "2026-05-05 23:15:37"
+        },
+        {
+            "id": 9,
+            "sender_user_id": 14,
+            "receiver_user_id": 13,
+            "message_text": "yes po:) i miss u naaa",
+            "is_read": true,
+            "created_at": "2026-05-05 23:16:05"
+        },
+        {
+            "id": 10,
+            "sender_user_id": 13,
+            "receiver_user_id": 9,
+            "message_text": "hi ben",
+            "is_read": false,
+            "created_at": "2026-05-05 23:18:16"
+        },
+        {
+            "id": 11,
+            "sender_user_id": 14,
+            "receiver_user_id": 13,
+            "message_text": "hi isiah",
+            "is_read": true,
+            "created_at": "2026-05-06 11:46:53"
+        },
+        {
+            "id": 12,
+            "sender_user_id": 14,
+            "receiver_user_id": 13,
+            "message_text": "how are you",
+            "is_read": true,
+            "created_at": "2026-05-06 11:47:28"
+        },
+        {
+            "id": 13,
+            "sender_user_id": 14,
+            "receiver_user_id": 13,
+            "message_text": "help me",
+            "is_read": true,
+            "created_at": "2026-05-06 11:48:30"
+        },
+        {
+            "id": 14,
+            "sender_user_id": 14,
+            "receiver_user_id": 13,
+            "message_text": "i mean what do you need?",
+            "is_read": true,
+            "created_at": "2026-05-06 11:56:16"
+        },
+        {
+            "id": 15,
+            "sender_user_id": 13,
+            "receiver_user_id": 14,
+            "message_text": "hi",
+            "is_read": true,
+            "created_at": "2026-05-06 15:49:05"
+        },
+        {
+            "id": 16,
+            "sender_user_id": 13,
+            "receiver_user_id": 14,
+            "message_text": "hi maria",
+            "is_read": true,
+            "created_at": "2026-05-06 15:50:32"
+        },
+        {
+            "id": 17,
+            "sender_user_id": 14,
+            "receiver_user_id": 13,
+            "message_text": "hello",
+            "is_read": true,
+            "created_at": "2026-05-06 15:51:14"
+        },
+        {
+            "id": 18,
+            "sender_user_id": 14,
+            "receiver_user_id": 13,
+            "message_text": "hello",
+            "is_read": true,
+            "created_at": "2026-05-06 15:51:41"
+        },
+        {
+            "id": 19,
+            "sender_user_id": 13,
+            "receiver_user_id": 14,
+            "message_text": "hey",
+            "is_read": true,
+            "created_at": "2026-05-06 15:53:35"
+        },
+        {
+            "id": 20,
+            "sender_user_id": 13,
+            "receiver_user_id": 14,
+            "message_text": "hi",
+            "is_read": true,
+            "created_at": "2026-05-06 16:11:35"
+        },
+        {
+            "id": 21,
+            "sender_user_id": 14,
+            "receiver_user_id": 13,
+            "message_text": "what is it?",
+            "is_read": true,
+            "created_at": "2026-05-06 16:13:59"
+        },
+        {
+            "id": 22,
+            "sender_user_id": 14,
+            "receiver_user_id": 13,
+            "message_text": "what is it?",
+            "is_read": true,
+            "created_at": "2026-05-06 16:14:36"
+        },
+        {
+            "id": 23,
+            "sender_user_id": 13,
+            "receiver_user_id": 14,
+            "message_text": "hi",
+            "is_read": true,
+            "created_at": "2026-05-06 16:16:03"
+        }
+    ]
+}
